@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:scrollbars="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:id="@+id/rlInputs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+            <include layout="@layout/toolbar" />
+
+            <EditText
+                android:id="@+id/edtFirstName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/appbar"
+                android:layout_margin="10dp"
+                android:hint="First Name"
+                android:inputType="text"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/edtLastName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edtFirstName"
+                android:layout_margin="10dp"
+                android:hint="Last Name"
+                android:inputType="text"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/edtCardNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edtLastName"
+                android:layout_margin="10dp"
+                android:hint="Card Number"
+                android:inputType="number"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/edtCVV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edtCardNumber"
+                android:layout_margin="10dp"
+                android:hint="CVV"
+                android:inputType="number"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/edtExpiry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edtCVV"
+                android:layout_margin="10dp"
+                android:hint="Expiration Date"
+                android:inputType="none"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/edtAdd1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edtExpiry"
+                android:layout_margin="10dp"
+                android:hint="Address Line 1"
+                android:inputType="text"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/edtAdd2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edtAdd1"
+                android:layout_margin="10dp"
+                android:hint="Address Line 2"
+                android:inputType="text"
+                android:padding="10dp" />
+
+            <Button
+                android:id="@+id/btnCheckout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edtAdd2"
+                android:layout_marginTop="@dimen/common_20_dp"
+                android:background="@color/buttonGreen"
+                android:text="Chekout"
+                android:textColor="@android:color/white" />
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+    <include layout="@layout/dialog_success" />
+</RelativeLayout>

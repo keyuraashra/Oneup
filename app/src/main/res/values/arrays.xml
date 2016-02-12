@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="dress_images">
+        <item>@drawable/ic_choose_first</item>
+        <item>@drawable/ic_choose_second</item>
+        <item>@drawable/ic_choose_third</item>
+        <item>@drawable/ic_choose_fourth</item>
+        <item>@drawable/ic_choose_fifth</item>
+        <item>@drawable/ic_choose_sixth</item>
+        <item>@drawable/ic_choose_seven</item>
+        <item>@drawable/ic_choose_eighth</item>
+        <item>@drawable/ic_choose_nine</item>
+        <item>@drawable/ic_choose_ten</item>
+        <item>@drawable/ic_choose_eleven</item>
+        <item>@drawable/ic_choose_twelve</item>
+        <item>@drawable/ic_choose_thirteen</item>
+        <item>@drawable/ic_choose_fourteen</item>
+        <item>@drawable/ic_choose_fifteen</item>
+        <item>@drawable/ic_choose_sixteen</item>
+        <item>@drawable/ic_choose_seventeen</item>
+    </integer-array>
+</resources>

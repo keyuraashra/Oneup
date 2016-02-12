@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.oneup.app.MainActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/appbar"
+        android:layout_marginTop="@dimen/common_10_dp"
+        android:horizontalSpacing="@dimen/common_10_dp"
+        android:numColumns="2"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="vertical"
+        android:verticalScrollbarPosition="right"
+        android:verticalSpacing="@dimen/common_10_dp" />
+</RelativeLayout>

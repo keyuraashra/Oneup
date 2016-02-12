@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">OneUpApp</string>
+    <string name="action_logout">Logout</string>
+    <string name="error_password">Password must be greater than 6 character.</string>
+    <string name="facbook_id">621533591331193</string>
+
+    <string name="no_internet">Internet connection is not available!</string>
+    <string name="ok">OK</string>
+    <string name="progressMessage">Creating Token&#8230;</string>
+    <string name="validationErrors">Validation Errors</string>
+    <string name="hint_error">&#160;is required!</string>
+    <string name="checkout">Checkout</string>
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+</resources>
